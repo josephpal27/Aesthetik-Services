@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-family: "Montserrat", sans-serif; */
+  }
+  
+  ::selection{
+      background-color: #ffb765;
+      color: #fff;
+  }
+  
+  /* Navbar Styling Starts Here */
+  nav {
+    padding: 1.5rem 0 !important;
+    /* background: #141414 !important; */
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 500 !important;
+    /* position: absolute !important; */
+    /* top: 0; */
+    z-index: 100;
+    /* width: 100%; */
+    border-bottom: 1px solid #d3d3d33b;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff !important;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-link,
+  .navbar-brand,
+  .navbar-toggler-icon {
+    color: #f8a31c !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  .nav-link.active {
+    /* color: rgb(54, 210, 7) !important; */
+    color: rgb(254, 186, 0) !important;
+    font-weight: 700 !important;
+  }
+  .navbar-nav .nav-link:hover{
+    /* color: #32c107 !important; */
+    color: rgb(254, 186, 0) !important;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .navbar-nav {
+      justify-content: flex-start !important;
+      text-align: left !important;
+    }
+    .navbar .contact-btn {
+      margin: 0 !important;
+    }
+  }
+  
+  /* Button Styling */
+  .navbar .contact-btn {
+    margin-left: 1rem;
+    /* background-color: #2fa30c; */
+    background-color: #f8a31c;
+    color: #fff;
+    font-family: "Montserrat", sans-serif !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  .navbar .contact-btn:hover {
+    /* color: #31b509; */
+    background-color: #ec9100;
+    transform: translateY(-4px);
+  }
+  .navbar .contact-btn i {
+    margin-right: 0.3rem;
+  }
+  
+  /* Navbar Styling Ends Here */
+
+
+  /* Top Banner Section Starts Here */
+  .banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .banner .banner-content{
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 36%;
+    color: #fff;
+  }
+  .banner .banner-content h2{
+    font-size: 2.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .banner .banner-content a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .banner .banner-content span i{
+    color: #ec9100;
+    margin: 0 0.3rem;
+  }
+  .banner .banner-content span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+  }
+  /* Top Banner Section Ends Here */
+
+
+  /* Our Services Section Starts Here */
+  .services{
+    /* overflow: hidden; */
+    padding: 4rem 0;
+  }
+  .services .service-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services .service-head h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(transparent, transparent, rgb(255, 162, 23));
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+  }
+  .services .service-head h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+  }
+  .services .service-head p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #6f6f6f;
+    width: 50%;
+    text-align: center;
+  }
+
+  .services .service-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .services .service-cards .card{
+    width: 27%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0.5rem 0.5rem 2rem 0.5rem;
+    overflow: hidden;
+  }
+  .services .service-cards .card img{
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .services .service-cards .card img:hover{
+    scale: 1.02;
+  }
+  .services .service-cards .card .card-desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  .services .service-cards .card .card-desc .card-left{
+    width: 20%;
+  }
+  .services .service-cards .card .card-left img{
+    width: 80%;
+  }
+  .services .service-cards .card .card-left img:hover{
+    scale: 1;
+  }
+  
+  .services .service-cards .card .card-desc .card-right{
+    width: 79%;
+  }
+  .services .service-cards .card .card-desc .card-right h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+  }
+  .services .service-cards .card .card-desc .card-right p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    margin-bottom: 2rem;
+    color: #646464;
+  }
+  .services .service-cards .card .card-desc .card-right a{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #f89901;
+    transition: all 0.2s ease;
+  }
+  .services .service-cards .card .card-desc .card-right a:hover{
+    color: #db7500;
+  }
+  /* Our Services Section Ends Here */
+
+
+  /* Renewable Company Section Starts Here */
+  .renewable{
+    margin-top: 2rem;
+    overflow: hidden;
+    position: relative;
+    background-image: url('images/renewable-company.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 5rem 0;
+  }
+  .renewable img{
+    width: 100%;
+  }
+  .renewable .renewable-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+  }
+  .renewable .renewable-content .renewable-left{
+    width: 46%;
+  }
+  .renewable .renewable-content .renewable-left h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(transparent, transparent, rgb(255, 162, 23));
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: #f6f6f6;
+  }
+  .renewable .renewable-content .renewable-left h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 2.3rem;
+  }
+  .renewable .renewable-content .renewable-left p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #e2e2e2;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+  }
+
+  .renewable .renewable-content .renewable-right{
+    width: 48%;
+  }
+  .renewable-right .progress-box{
+    padding: 0.5rem;
+    margin-top: 1.3rem;
+  }
+  .renewable-right .progress-box .progress-top{
+    display: flex;
+    justify-content: space-between;
+  }
+  .renewable-right .progress-box .progress-top h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+  }
+  .renewable-right .progress-box .progress-top .percent{
+    opacity: 0;
+    transition: all 3s ease;
+  }
+  .renewable-right .progress-box .progress-bottom{
+    width: 100%;
+    height: 0.7rem;
+    background-color: #fff;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  .renewable-right .progress-box .line{
+    /* width: 100%; */
+    width: 0;
+    height: 100%;
+    background-color: #db7500;
+    border-radius: 10px;
+    transition: all 2.5s ease;
+  }
+  /* Renewable Company Section Ends Here */
