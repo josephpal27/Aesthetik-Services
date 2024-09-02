@@ -183,7 +183,7 @@ nav {
   font-size: 1.1rem;
   margin-top: 1rem;
   color: #6f6f6f;
-  width: 50%;
+  width: 80%;
   text-align: center;
 }
 
@@ -230,6 +230,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+  min-height: 4rem;
 }
 .services .service-cards .card .card-desc .card-right p {
   font-size: 1rem;
@@ -298,8 +299,8 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #e2e2e2;
-  margin-top: 2rem;
-  font-size: 1.1rem;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .renewable .renewable-content .renewable-right {
