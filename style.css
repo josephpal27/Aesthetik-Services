@@ -227,10 +227,10 @@ nav {
   width: 79%;
 }
 .services .service-cards .card .card-desc .card-right h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  min-height: 4rem;
+  min-height: 2.5rem;
 }
 .services .service-cards .card .card-desc .card-right p {
   font-size: 1rem;
@@ -250,6 +250,13 @@ nav {
 }
 .services .service-cards .card .card-desc .card-right a:hover {
   color: #db7500;
+}
+
+@media screen and (max-width: 1400px) {
+  .services .service-cards .card .card-desc .card-right h3 {
+    font-size: 1.2rem;
+    min-height: 2rem;
+  }
 }
 /* Our Services Section Ends Here */
 
@@ -287,6 +294,7 @@ nav {
   border-radius: 7px;
   text-transform: uppercase;
   color: #f6f6f6;
+  font-size: 2rem;
 }
 .renewable .renewable-content .renewable-left h1 {
   font-family: "Montserrat", sans-serif;
@@ -522,10 +530,15 @@ footer .footer .foot-left .foot-card p {
 footer .footer .foot-left .foot-card .foot-address {
   margin-top: 2rem;
 }
+footer .footer .foot-left .foot-card .foot-address .address-row {
+  display: flex;
+  margin-top: 0.6rem;
+}
 footer .footer .foot-left .foot-card .foot-address p {
   margin: 0;
-  margin-top: 0.5rem;
   color: #fff;
+  font-size: 0.9rem;
+  width: 85%;
 }
 footer .footer .foot-left .foot-card .foot-address a {
   text-decoration: none;
@@ -533,7 +546,9 @@ footer .footer .foot-left .foot-card .foot-address a {
 }
 footer .footer .foot-left .foot-card .foot-address i {
   color: #f15c06;
-  width: 1.7rem;
+  width: 12%;
+  font-size: 1.1rem;
+  margin-top: 0.1rem;
 }
 footer .footer .footer-list p {
   color: #fff;
