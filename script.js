@@ -27,6 +27,8 @@ window.addEventListener("scroll", () => {
 });
 
 
+// ----------------------------------------------------------------------------------------------------------------------------------------
+
 // Functionality For Footer Section
 let footIconBox = document.querySelectorAll('.footer-icon-row .footer-icon');
 let footIcon = document.querySelectorAll('.footer-icon-row .footer-icon i');
