@@ -243,7 +243,7 @@ nav {
   overflow: hidden;
 }
 .services .service-cards .card .card-img {
-  height: 56%;
+  height: 14rem;
 }
 .services .service-cards .card .card-img img {
   border-radius: 10px;
@@ -255,32 +255,41 @@ nav {
   scale: 1.02;
 }
 .services .service-cards .card .card-desc {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   margin-top: 2rem;
   padding: 0 1rem;
 }
 .services .service-cards .card .card-desc .card-left {
-  width: 20%;
+  width: 100%;
+  display: flex;
 }
 .services .service-cards .card .card-left img {
-  width: 80%;
+  width: 19%;
 }
 .services .service-cards .card .card-left img:hover {
   scale: 1;
 }
-
-.services .service-cards .card .card-desc .card-right {
-  width: 79%;
+.services .service-cards .card .card-left h3{
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0.5rem 0 0 1rem;
 }
-.services .service-cards .card .card-desc .card-right h3 {
+.services .service-cards .card .card-desc .card-right {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+/* .services .service-cards .card .card-desc .card-right h3 {
   font-size: 1.4rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   min-height: 2.5rem;
-}
+} */
 .services .service-cards .card .card-desc .card-right p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   text-align: justify;
@@ -301,7 +310,7 @@ nav {
 
 /* Services Media Queries Start Here */
 @media screen and (max-width: 1400px) {
-  .services .service-cards .card .card-desc .card-right h3 {
+  .services .service-cards .card .card-desc .card-left h3 {
     font-size: 1.2rem;
     min-height: 2rem;
   }
