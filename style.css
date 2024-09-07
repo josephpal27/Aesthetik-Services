@@ -597,14 +597,14 @@ nav {
   margin-top: 1.5rem;
   text-align: center;
 }
-.work-card-row .work-card p {
+/* .work-card-row .work-card p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1rem;
   margin-top: 0.5rem;
   text-align: center;
   color: #6f6f6f;
-}
+} */
 .work-card-row .arrow {
   position: absolute;
 }
@@ -688,7 +688,7 @@ footer {
   padding: 3rem 0 1rem 0;
   position: relative;
   font-family: "Montserrat", sans-serif;
-  margin-top: 7rem;
+  margin-top: 9rem;
 }
 footer .footer {
   position: relative;
