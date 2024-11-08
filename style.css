@@ -349,6 +349,29 @@ nav {
     overflow: hidden;
     margin-top: 2rem;
   }
+
+  .services .service-cards .card .card-img{
+    height: 12rem;
+  }
+  .services .service-cards .card .card-left img{
+    width: 17%;
+  }
+  .services .service-cards .card .card-left h3{
+    font-size: 1.2rem;
+    height: 2rem;
+    line-height: 2rem;
+  }
+  .services .service-cards .card .card-desc{
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  .services .service-cards .card .card-desc .card-right{
+    margin-top: 0.8rem;
+  }
+  .services .service-cards .card .card-desc .card-right p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* Our Services Section Ends Here */
@@ -407,7 +430,14 @@ nav {
   font-weight: 500;
   color: #e2e2e2;
   margin-top: 2.5rem;
-  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-size: 1.6rem;
+}
+.renewable-content-bottom-text p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #e2e2e2;
+  font-size: 1.6rem;
 }
 
 .renewable .renewable-content .renewable-right {
@@ -449,6 +479,12 @@ nav {
 }
 
 /* Renewable Media Queries Start Here */
+@media screen and (min-width: 992px) {
+  .renewable .renewable-content .renewable-left p span {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .renewable .renewable-content {
     flex-direction: column;
@@ -459,6 +495,9 @@ nav {
   }
   .renewable .renewable-content .renewable-left {
     width: 100%;
+  }
+  .renewable-content-bottom-text p{
+    display: none;
   }
   .renewable .renewable-content .renewable-right {
     width: 100%;
@@ -493,6 +532,9 @@ nav {
   .renewable .renewable-content .renewable-left p {
     font-size: 1.1rem;
     margin-top: 1.8rem;
+  }
+  .renewable-content-bottom-text p{
+    font-size: 1.1rem;
   }
   .renewable-right .progress-box {
     margin-top: 0.5rem;
@@ -553,7 +595,7 @@ nav {
   position: relative;
 }
 .work-card-row .work-card {
-  width: 24%;
+  width: 13%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -561,8 +603,17 @@ nav {
   padding: 3rem 0 1rem 0;
   overflow: hidden;
 }
+/* .work-card-row .work-card {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 3rem 0 1rem 0;
+  overflow: hidden;
+} */
 .work-card-row #work-card-2,
-#work-card-4 {
+#work-card-4, #work-card-6 {
   padding: 8rem 0 1rem 0;
 }
 .work-card-row .work-card h5 {
@@ -573,10 +624,10 @@ nav {
   border-radius: 3px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   position: absolute;
   top: 1.7rem;
-  left: 24.4%;
+  left: 12%;
   z-index: 100;
 }
 .work-card-row .work-card .card-count {
@@ -592,8 +643,8 @@ nav {
   border-radius: 10px;
 }
 .work-card-row .card-img img {
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
 }
 .work-card-row .work-card .card-content {
@@ -602,7 +653,7 @@ nav {
 .work-card-row .work-card h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 1.5rem;
   text-align: center;
 }
@@ -618,19 +669,32 @@ nav {
   position: absolute;
 }
 .work-card-row .arrow img {
-  filter: opacity(40%);
+  filter: opacity(70%);
+  width: 50px;
 }
 .work-card-row #arrow-1 {
-  left: 20%;
+  left: 11%;
   top: 3rem;
 }
 .work-card-row #arrow-2 {
-  left: 45.3%;
+  left: 25.6%;
   top: 7.5rem;
 }
 .work-card-row #arrow-3 {
-  left: 71%;
+  left: 40%;
   top: 3rem;
+}
+.work-card-row #arrow-4 {
+  left: 54.6%;
+  top: 7.5rem;
+}
+.work-card-row #arrow-5 {
+  left: 69%;
+  top: 3rem;
+}
+.work-card-row #arrow-6 {
+  left: 83.6%;
+  top: 7.5rem;
 }
 
 /* Work Process Media Queries Start Here */
@@ -665,7 +729,7 @@ nav {
     padding: 2rem 0 1rem 0;
   }
   .work-card-row #work-card-2,
-  #work-card-4 {
+  #work-card-4, #work-card-6 {
     padding: 2rem 0 1rem 0;
   }
   .work-card-row .work-card h5 {
